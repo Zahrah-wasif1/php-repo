@@ -1,2 +1,6 @@
 <?php
-echo"hello"
+function greet($name) {
+    return "Hello, $name!";
+}
+echo greet("Zahrah");
+?>
